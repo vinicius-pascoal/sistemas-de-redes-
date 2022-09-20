@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-image: url(fundo.JPG.webp);
+    background-size: cover;
+    font-size: larger;
+    
+}
+.titulo{
+    background-color: rgba(31, 31, 31, 0.761);
+    color: #ffffff;
+    text-align: center;
+    padding:10px 0 ;
+    text-align: left;
+    padding-left: 10px;
+}
+.rodape{
+    background-color: #000000;
+    margin-top: 20px;
+    color: #ffffff;
+    text-align: center;
+    padding:10px 0 ;
+}
+.camadas li{
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-right: 200px;
+    padding-left: 5px;
+}
+.subtitulo{
+    background-color: rgba(0, 0, 0, 0.502);
+    margin-right: 300px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.topodosite{
+    display: flex;
+    text-align: center;
+    font-size: larger;
+    margin-bottom: 20px;
+}
+.topodosite img{
+    width: 400px;
+}
+.voltar{
+    background-color: aliceblue;
+    color: black;
+    padding: 15px 10px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.voltar img{
+    width: 50px;
+}

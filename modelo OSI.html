@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo OSI</title>
+    <link rel="stylesheet" href="css/OSI.css">
+</head>
+<body>
+    <h1 class="titulo">Modelo OSI</h1>
+    <div class="topodosite">
+        <img src="images/OSI.jpg" alt="OSI" class="imgosi">
+        <P class="subtitulo">Foi desenvolvido pela ISO (International Organization for Standardization) e possui 7 camadas.<br>Cada camada possui um subconjunto de funções e depende da camada inferior para realizar funções mais primitivas e ocultar os detalhes destas funções, além de oferecer serviços a próxima camada mais alta.</P>
+    </div>
+    <h2 class="subtitulo">As 7 camadas do modelo OSI podem ser divididas da seguinte maneira:</h2>
+    <ul class="camadas">
+        <li>
+            <h3>Camada Física:</h3>
+            É responsável pela estruturação de hardware, ou seja, a transmissão de bits por um canal de comunicação. Essa transmissão deve garantir que, quando um lado enviar 1 bit, o outro lado deve realmente receber 1 bit, e não o bit 0.
+        </li>
+        <li>
+            <h3>Camada de Enlace:</h3>
+            É responsável pela comunicação entre duas máquinas, ou seja, transforma um canal de transmissão normal em uma linha livre de erros de transmissão, para isso, essa camada mascara os erros reais, de modo que a camada de rede não os veja, isto é possível usando o quadro de dados, ou seja, o transmissor divide os dados de entrada em quadro de dados e transmite os quadros sequencialmente. Se esse serviço for confiável, o receptor confirmará o recebimento através do quadro de confirmação.
+        </li>
+        <li>
+            <h3>Camada de Rede:</h3>
+            É responsável pelo roteamento e endereçamento (IP), para isso, esta camada determina como os pacotes são roteados da origem até o destino.<br>
+            Estas rotas podem ser divididas em três formas:
+            <ul class="listafundo">
+                <li>
+                    Tabelas estáticas, que raramente são alteradas, ou podem ser atualizadas de forma automática, evitando componentes defeituosos. Determinadas no início de cada conversação, por exemplo, uma sessão de terminal em uma máquina remota
+                </li>
+                <li>
+                    Tabelas dinâmicas. São determinadas para cada pacote, refletindo a carga atual da rede. Esta camada tem como função controlar o congestionamento de pacotes. A qualidade do serviço fornecido – atraso, tempo em trânsito, instabilidade, entre outros – também pertence a camada de rede.
+                </li>
+                <li>
+                    Outra função desta camada, é trafegar pacotes de uma rede para outra, onde o endereçamento das redes podem ser diferentes, ou a rede pode não receber o pacote por este muito grande, os protocolos podem ser diferentes.
+                </li>
+            </ul>
+        </li>
+        <li>
+            <h3>Camada de Transporte:</h3>
+            É responsável pela comunicação entre origem e destino, para isso, essa camada aceita dados da camada acima dela, e se for preciso, divide em unidades menores e repassa essas unidades á camada abaixo dela (camada de rede), garantindo que todos os fragmentos chegarão corretamente a outra extremidade.<br>
+            Todas essas etapas devem ser feitas de forma eficiente e de forma que as demais camadas superiores não percebam as mudanças de tecnologia de hardware.<br>
+            Esta camada também é responsável por determinar que tipo de serviço (determinado quando a conexão é estabelecida) deve ser fornecido a camada de sessão e aos usuários da rede, entre eles, são:
+            <ul class="listafundo">
+                <li>
+                    Canal ponto a ponto – é o mais popular, livre de erros e entrega as mensagens ou bytes na ordem em que foram enviados
+                </li>
+                <li>
+                    Mensagens isoladas – não possui nenhuma garantia relativa a ordem de entrega e à propagação da mensagem para vários destinos.
+                </li>
+            </ul>
+        </li>
+        <li>
+            <h3>Camada de Sessão:</h3>
+            Permite estabelecer sessões de comunicação entre os usuários de diferentes máquinas.<br>
+            Esta sessão oferece diversos serviços, como por exemplo:
+            <ul class="listafundo">
+                <li>
+                    Controle de diálogo – mantêm o controle de quem deve transmitir em cada momento.
+                </li>
+                <li>
+                    Gerenciamento de tokens – impede que duas partes tentem executar a mesma operação crítica ao mesmo tempo.
+                </li>
+                <li>
+                    Sincronização – realiza a verificação periódica de longas transmissões para permitir que elas continuem a partir do ponto em que estavam ao ocorrer uma falha e a subsequente recuperação.
+                </li>
+            </ul>
+        </li>
+        <li>
+            <h3>Camada de Apresentação:</h3>
+            É responsável pela uniformização das mensagens, ou seja, a camada de apresentação está relacionada a sintaxe e à semântica das informações transmitidas.<br>
+            Esta camada gerencia as estruturas de dados abstratas, essas estruturas permitem a comunicação entre os computadores com diferentes representações internas dos dados. 
+        </li>
+        <li>
+            <h3>Camada de Aplicação:</h3>
+            É responsável pela utilização das mensagens, esta camada possui vários protocolos necessários para o usuário.<br>
+            O protocolo mais usado é o HTTP (HyperText Transfer Protocol), quando digitado um endereço de site no navegador, o navegador, usando o HTTP, envia o nome da página desejada ao servidor que hospeda a página, o servidor então transmite a página ao navegador.<br>
+            Além deste protocolo, outros são usados para transferências de arquivos, correio eletrônico e transmissão de notícias pela rede.<br>
+        </li>
+    </ul>
+    <a href="index.html" class="voltar"><img src="images/voltar.png" alt="voltar">Voltar </a>
+    <div class="rodape">
+        Developed by:Vinicius,Yago,Gustavo,Leticia,Tayssa,Isabela
+    </div>
+</body>
+</html>

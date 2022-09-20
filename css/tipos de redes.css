@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-image: url(fundo.JPG.webp);
+    background-size: cover;
+    font-size: larger;
+}
+.toposite{
+    background-color: rgba(31, 31, 31, 0.761);
+    color: #ffffff;
+    text-align: center;
+    padding:10px 0 ;
+    text-align: left;
+    padding-left: 10px;
+}
+.subtitulo{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.568);
+    border-radius: 20px;
+    text-align: center;
+    font-size: larger;
+}
+.subtitulo img{
+    width: 250px;
+}
+.listas li{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 20PX;
+    margin: 20PX 0PX;
+    text-align: center;
+    margin-right: 300px;
+}
+.rodape{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    padding:10px 0 ;
+}
+.voltar{
+    background-color: aliceblue;
+    color: black;
+    padding: 15px 10px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.voltar img{
+    width: 50px;
+}

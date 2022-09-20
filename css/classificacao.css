@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-image: url(fundo.JPG.webp);
+    background-size: cover;
+    font-size: larger;
+    
+}
+.primeiro li{
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.segundo li{
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.terceiro li{
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.subtitulo{
+    background-color: rgba(0, 0, 0, 0.502);
+    margin-right: 300px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    background-color: rgba(61, 75, 75, 0.185)
+}
+li{
+    list-style: circle;
+}
+/*.site{
+    margin: 0 20px;
+    font-size: larger;
+}*/
+.computacional{
+    display: flex;
+}
+li{
+    margin-right: 300px;
+}
+.paragrafo{
+    margin-right: 300px;
+}
+.rodape{
+    background-color: #000000;
+    margin-top: 20px;
+    color: #ffffff;
+    text-align: center;
+    padding:10px 0 ;
+}
+.voltar{
+    background-color: aliceblue;
+    color: black;
+    padding: 15px 10px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.voltar img{
+    width: 50px;
+}

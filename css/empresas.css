@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-image: url(fundo.JPG.webp);
+    background-size: cover;
+    font-size: larger;
+}
+h1{
+    background-color: rgba(31, 31, 31, 0.761);
+    color: #ffffff;
+    text-align: center;
+    padding:10px 0 ;
+    text-align: left;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.subtitulo{
+    background-color: rgba(0, 0, 0, 0.502);
+    display: flex;
+    margin-right: 300px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.subtitulo img{
+    width: 200px;
+}
+.lista1 li{
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    margin-right: 300px;
+    list-style: disc;
+    display: flex;
+}
+p{
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    margin-right: 300px;
+    list-style: disc;
+}
+h2{
+    background-color: rgba(0, 0, 0, 0.527);
+    border-radius: 20px;
+    margin-right: 300px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+}
+.seisg{
+    width: 300px;
+    padding-right: 20px;
+}
+.wallmart{
+    width: 300px;
+    padding-right: 20px;
+}
+.operadoras{
+    width: 350px;
+    padding-right: 20px;
+}
+.voltar{
+    background-color: aliceblue;
+    color: black;
+    padding: 15px 10px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.voltar img{
+    width: 50px;
+}
+.rodape{
+    background-color: #000000;
+    margin-top: 100px;
+    color: #ffffff;
+    text-align: center;
+    padding:10px 0 ;
+}

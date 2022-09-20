@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-image: url(fundo.JPG.webp);
+    background-size: cover;
+    font-size: larger;
+}
+.toposite{
+    background-color: #1f1f1fc2;
+    color: #ffffff;
+    text-align: center;
+    padding:10px 0 ;
+    text-align: left;
+    padding-left: 10px;
+}
+.logopag1{
+    width: 200px;
+}
+.pt1{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.637);
+    border-radius: 20px;
+    justify-content: center;
+    align-content: center;
+}
+.pt1 p{
+    padding: 5px;
+    size: 20px;
+    margin-right: 200px;
+}
+.tiposali{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(240, 248, 255);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.tiposderedes{
+    display: flex;
+    color: black;
+}
+.tiposderedes img{
+    width: 100px;
+}
+.arealink{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.links{
+    margin: 0 10px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    color: black;
+}
+.links img{
+    width: 300px;
+    height: 350px;
+}
+.links h2{
+    text-align: center;
+}
+.rodape{
+    background-color: #000000;
+    margin-top: 250px;
+    color: #ffffff;
+    text-align: center;
+    padding:10px 0 ;
+}
